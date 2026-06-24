@@ -8,12 +8,9 @@ if age >= 18:
 if age >= 50:
     print("senior")
 
-password=str(input("enter your password"))
+password=str(input("enter your password:"))
 if len(password) >= 8:
     print("strong password")
 
 if len(password) < 8:
     print("weak password")
-
-
- 
