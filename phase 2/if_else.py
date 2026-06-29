@@ -4,10 +4,10 @@ if number % 2 == 0:
 else:
     print("number is odd")
 
-username= input("enter your username")
+username= input("enter your username:")
 if username.lower() == "admin":
     print("access granted")
 else:
     print("access denied")
-    
+
 
